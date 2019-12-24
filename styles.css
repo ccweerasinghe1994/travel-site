@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+  padding: 30px;
+}
+
+body .header {
+  height: 95vh;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#7ed561b3), to(#28b485bf)), url(./img/scenic-photo-of-snow-capped-mountain-3379550.jpg);
+  background-image: linear-gradient(to right bottom, #7ed561b3, #28b485bf), url(./img/scenic-photo-of-snow-capped-mountain-3379550.jpg);
+  background-size: cover;
+  background-position: top;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
+/*# sourceMappingURL=styles.css.map */
