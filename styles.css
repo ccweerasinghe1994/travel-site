@@ -22,5 +22,43 @@ body .header {
   background-position: top;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
           clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  position: relative;
+}
+
+body .header .logo-box {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+body .header .logo-box .logo {
+  height: 35px;
+}
+
+body .header .text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body .header .text-box .primary-heading {
+  color: white;
+  text-transform: uppercase;
+}
+
+body .header .text-box .primary-heading .heading-primary-main {
+  display: block;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 45px;
+}
+
+body .header .text-box .primary-heading .heading-primary-sub {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 21px;
 }
 /*# sourceMappingURL=styles.css.map */
